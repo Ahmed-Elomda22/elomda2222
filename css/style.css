@@ -1,0 +1,898 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 7500px;
+    background-color: #000000;
+}
+
+
+ .header{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(47, 47, 47,0.8);
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    
+ }
+ .img1{
+    width: 100px;
+    height:59px;
+    float: left;
+    margin-left: 50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+
+
+ }
+ 
+ .ul1{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+ }
+ .ul1 li{
+    display: inline-block;
+    margin: 0 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+ }
+ .ul1 li a {
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+
+ }
+ .ul1 a:hover{
+    color: #ffffff;
+ }
+ .home-moto{
+    background-image: url(../images/3460990.webp);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.overlay-moto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    width: 100%;
+    height: 100vh;
+}
+.content-moto{
+    color: #ffffff;
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.title-moto{
+    font-size: 65px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p-moto{
+    color: #b3b1b1;
+    font-size: 17px;
+    padding: 12px 0px;
+    letter-spacing: 2px;
+}
+.bot-moto{
+    background-color: #383636;
+    color: #ffffff;
+    border-radius: 15px;
+    text-transform: capitalize;
+    border: 0;
+    font-size: 18px;
+    padding: 16px 14px;
+}
+.b3:hover{
+    background-color: #000;
+    color: #c60606;
+}
+.b2{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
+.b2:hover{
+    opacity: 0.7;
+    
+
+}
+ 
+
+.head-we{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 45px;
+    color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p-we{
+    height: 3px;
+    width: 7pc;
+    background-color: #d9d3d3;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+.welcome-container{
+    height:100vh;
+    background-image: url(../images/biker-neon-4k-xo-3840x2160.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+
+.fully{
+    width: 300px;
+    height: 250px;
+    background-color:  rgba(0, 0, 0, 0.7);
+    float: left;
+    text-align: center;
+    /* margin: auto; */
+    margin: 10px 50px;
+    border: solid rgb(255, 65, 36) 1px;
+    border-radius: 12px;
+    position: relative;
+}
+.over2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    width: 100%;
+    height: 100vh;
+}
+.welcome-content{
+    width: 80%;
+    margin: auto;
+    /* background-color: rgb(120, 111, 101); */
+    overflow: auto;
+    margin-top: 100px;
+    
+}
+.f1 li i{
+    font-size: 33px;
+    padding-top: 15px;
+    color:#ca462b;
+}
+.link2{
+    text-decoration: none;
+    color:rgb(201, 67, 18);
+    font-size: 17px;
+
+}
+.cust{
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 0px;
+    color: #ffffff;
+}
+.motor{
+    color: rgba(255, 255, 255, 0.7);
+    padding: 15px 0px;
+    padding-bottom: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.fully:hover .motor{
+    color: #ffffff;
+}
+.fully:after{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition:1.5s;
+    border-radius: 10px;
+}
+.fully:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.fully:hover .cust{
+    color: #535353;
+}
+
+.sec3{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    
+}
+.hhh3{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 45px;
+    color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.l3{
+    height: 3px;
+    width: 7pc;
+    background-color: #d9d3d3;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+.cont3{
+    width: 80%;
+    /* background-color: aqua; */
+    margin: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.item3{
+    float: left;
+    padding: 10px 25px;
+    color: #ffffff;
+    /* background-color: #2c9995; */
+    position: relative;
+
+}
+
+.item3 img{
+    border-radius: 15px;
+}
+.over3{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .2s;
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+}
+.item3:hover .over3{
+    visibility: visible;
+    opacity: 1;
+}
+.hhh{
+    color: rgb(181, 181, 184);
+text-transform: uppercase;
+font-size: 30px;
+padding-top: 30px;
+}
+.ppp{
+    position: relative;
+    top: 20px;
+}
+.item3 a{
+    display:inline-block;
+    position: relative;
+    top: 50px;
+    background-color: #fff;
+    font-size: 20px;
+    color: #34125d;
+    border-radius: 5px;
+    padding: 5px 5px;
+
+}
+.sec4{
+    width: 100%;
+    height: 100vh;
+    background-color: #131313;
+}
+.cont4{
+    width: 80%;
+    margin: auto;
+    overflow:auto;
+}
+.head44{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 45px;
+    color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ll4{
+    height: 3px;
+    width: 7pc;
+    background-color: #d9d3d3;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+.content4{
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgb(108, 108, 214);
+    padding:25px 55px;
+    border-radius: 10px;
+    color: #ffffff;
+    float: left;
+    margin:30px 50px ;
+    position: relative;
+    
+}
+.icon4{
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    font-size: 30px;
+    color: rgb(99, 99, 216);
+}
+.h4{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p4{
+    padding-top: 5px;
+    opacity: 0.5;
+}
+.content4:after{
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition:1.5s;
+    border-radius: 10px;
+}
+.content4:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.content4:hover h2{
+    color: rgb(99, 99, 216);
+
+}
+.content4:hover p{
+    opacity: 1;
+}
+.sec5{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+
+}
+.cont5{
+    width: 80%;
+    margin: auto;
+    overflow:auto;
+    color: #ffffff;
+}
+.content5{
+    float: left;
+    width: 50%;
+    margin-top: 200px;
+
+}
+.h5{
+    text-transform: capitalize;
+    font-size: 40px;
+
+}
+.pp5{
+    width: 70px;
+    border: 2px solid #5f29a1;
+    margin-top: 10px;
+
+}
+.p5{
+    color: rgb(178, 178, 180);
+    padding-top: 40px;
+    text-align: center;
+    width: 400px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.content55{
+    float: right;
+    /* width: 50%; */
+    margin-top: 150px;
+    text-align: center;
+
+}
+.content55 li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #895ce4;
+}
+.content55 li:hover{
+    background-color: #ffffff;
+}
+
+.content55 img{
+    border: #34125d 2px solid;
+    border-radius: 15px;
+
+}
+.ul5{
+    list-style: none;
+    padding-top: 30px;
+}
+.li5 i{
+    color: #895ce4;
+    padding-right: 2px;
+}
+.li5{
+    padding: 15px 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity: 0.5;
+}
+.sec6{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/honda-motorcycle-track-bike-qj-1920x1200.jpg);
+    background-size: cover;background-attachment: fixed;
+    position: relative;
+    margin-top: 200px;
+}
+.over6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.cont6{
+    width: 80%;
+    overflow:auto;
+    margin: auto;
+    color: #ffffff;
+}
+.content6{
+    float: left;
+    text-align: center;
+    padding: 80px 100px;
+    margin-top: 90px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content6 i{
+    font-size: 40px;
+    color: #f5b216;
+    padding-bottom: 10px;
+}
+.sec7{
+    background-image: url(../images/2560x1600-5001179-yamaha-bikes-yamaha-r1-2018-bikes-hd-behance-artist.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.over7{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.head7{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+}
+.h7{
+    font-size: 45px;
+    color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p-l7{
+    height: 3px;
+    width: 7pc;
+    background-color: #d9d3d3;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+.cont7{
+    width: 80%;
+    margin: auto;
+    overflow:auto;
+}
+.content7{
+    float: left;
+    color: #ffffff;
+    border: solid 1px rgb(160, 160, 160);
+    border-radius: 12px;
+    height: 400px;
+    width: 300px;
+    margin: 80px 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+}
+.h37{
+    margin: 30px 0px;
+    font-size: 22px;
+}
+.o7{
+    border: #d9d3d3 1.5px solid;
+    border-radius: 50%;
+    height:80px;
+    width:80px;
+    text-align: center;
+    margin: auto;
+    padding-top: 35px;
+    font-size: 18px;
+}
+.pp77{
+    margin: 20px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+}
+.bot7{
+    width: 170px;
+    height: 30px;
+    border:none;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #b1b1b1;
+}
+.bot7:hover{
+    background-color: #ffffff;
+}
+.content7:after{
+    content: "";
+    width: 100%;
+    height: 0;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition:1.5s;
+    border-radius: 10px;
+}
+.content7:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.sec8{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/2560x1600-5001659-ducati-ducati-diavel-bikes-hd-artist-behance.jpg);
+    background-size: cover;background-attachment: fixed;
+    position: relative;
+    margin-top: 200px;
+}
+.over8{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.cont8{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    color: #ffffff;
+    position: relative;
+}
+.content8{
+    float: left;
+    width: 400px;
+    margin: 150px 100px;
+}
+/* .content8 img,p{
+    display: inline;
+} */
+.p8{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    /* color: #ca462b; */
+}
+.pp8{
+    color: #ff7913;
+    font-size: 17px;
+}
+.pp88{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgba(255, 255, 255, 0.5);
+}
+.content8 img{
+    border-radius: 50%;
+}
+.sec9{
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+}
+.hed9{
+    margin: auto;
+
+}
+.h9{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 45px;
+    color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p-l9{
+    height: 3px;
+    width: 7pc;
+    background-color: #d9d3d3;
+    margin: auto;
+    margin-top: 2px;
+    border-radius: 20px;
+    
+}
+.cont9{
+    width: 80%;
+    margin: auto; 
+    overflow: auto;
+}
+.content9{
+    float: left;
+    width: 30%;
+    background-color: #292929;
+    text-align: center;
+    margin-top: 50px;
+    padding: 14px 18px;
+    border-radius: 20px;
+    position: relative;
+}
+.c9{
+    margin: 50px 5% ;
+}
+.team-img{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.team-img img{
+    width: 100%;
+}
+.team-over{
+    visibility: hidden; 
+   position: absolute;
+   top: 0;
+   background-color:rgba(0, 0, 0, 0.5);
+   width: 100%;
+   height: 100%;
+}
+.team-over a{
+   display: block;
+   width: 40px;
+   height: 40px;
+   background-color: #1e1e1e;
+   color: #ffffff;
+   font-size: 23px;
+   margin-left: auto;
+}
+.team-over i{
+   line-height: 40px;
+} 
+.h399{
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    padding: 12px 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+} 
+.content9:after{
+    content: "";
+    width: 100%;
+    height: 0;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition:1.5s;
+    border-radius: 10px;
+}
+.content9:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+
+}
+.content9:hover .team-over{
+    visibility: visible;
+    transition: 2s;
+}
+.p9{
+    color: #7c5f9f;
+    font-size: 20px;
+}
+.sec10{
+    width: 100%;
+    height: 100vh;
+    color: #ffffff;
+}
+.cont10{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+
+}
+.content10{
+    width: 30%;
+    text-align: center;
+    height: auto;
+    float: left;
+    border: 1px solid rgb(100, 100, 241);
+    border-radius: 10px;
+    position: relative;
+    margin-top: 50px;
+
+}
+.content10:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgb(144, 144, 153);
+    transition: .5s;
+    opacity: .5;
+    border-radius: 10px;
+    z-index: -1;
+}
+.content10:hover:after{
+    width: 100%;
+height: 100%;
+opacity: 0.5;
+transition: 0.5s;
+}
+.content10:hover .icon10 ul{
+    color: #ffffff;
+}
+.content10:hover .icon10 p{
+    color: #ffffff;
+}
+.c10{
+    margin: 50px 5%;
+}
+.icon10{
+    margin-bottom: 15px;
+}
+.icon10 ul{
+    list-style: none;
+}
+.icon10 ul li{
+    display: inline-block;
+   margin-right: 15px;
+   margin-top: 25px;
+}
+.icon10 h3{
+    margin: 15px 0px;
+}
+.icon10 p {
+    margin-bottom: 25px;
+    color: rgb(137, 137, 137);
+}
+.icon10 img{
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.news-read-more{
+    text-decoration: none;
+    color: #895ce4;
+}
+.icon10  i {
+    color: #462f51;
+}
+.h10{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 45px;
+    color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p10{
+height: 3px;
+width: 7pc;
+background-color: #d9d3d3;
+margin: auto;
+margin-top: 2px;
+border-radius: 20px;
+}
+.footer{
+    width: 100%;
+    background-color: #282828;
+    padding: 20px 0px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    color: #ffffff;
+    height: 325px;
+
+}
+.img-fot{
+    height: 30%;
+}
+.content-fot{
+    margin: auto;
+    height: 300px;
+    width: 40%;
+    text-align: center;
+    float: left;
+    
+}
+.img-fot, .img-fot img{
+    width:250px;
+    height: 200px;
+    /* margin: auto; */
+    border-radius: 10px;
+    margin-left: 320px;
+    margin-top: 50px;
+    
+    
+    }
+    .icon-fot p{
+        font-size: 13px;
+        text-transform: uppercase;
+        color: rgb(100, 99, 99);
+        padding-top: 10px;
+        text-align: center;
+}
+
+.icon-fot{
+        margin-top: 130px;
+}
+.icon-fot ul{
+        list-style: none;
+       
+}
+.icon-fot ul li{
+        display: inline-block;
+        margin-top: 200px;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        background-color: #9198f7;
+        color: #fff;
+        font-size: 30px;
+       padding-top: 11px;
+       position: relative;
+       text-align: center;
+
+
+}
+.icon-fot ul li:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgb(179, 179, 245);
+    transition: .5s;
+    opacity: .5;
+    border-radius: 10px;
+}
+.icon-fot ul li:hover{
+background-color: #4e43e9;
+transition: 0.5s;
+}
